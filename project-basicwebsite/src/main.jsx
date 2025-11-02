@@ -10,6 +10,7 @@ import Tech from './components/tech/tech.jsx'
 import Contact from './components/contact/contact.jsx'
 import { githubInfoLoader } from './components/github/github.jsx'
 import Github from './components/github/github.jsx'
+import User from './components/User/User.jsx'
 
 
 // const router = createBrowserRouter([
@@ -44,6 +45,7 @@ const router = createBrowserRouter(
       loader={githubInfoLoader}
       path='github' 
       element={<Github />} />
+      <Route path='user/:userid' element={<User />} />
     </Route>  
   ))    
 
