@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import Header from './components/header/header.jsx'
+import Home from './components/home/home.jsx'
+import Footer from './components/footer/footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <h1 className='text-5xl font-bold text-center mt-10'>Welcome to Vite + React</h1>
     </>
   )
 }
